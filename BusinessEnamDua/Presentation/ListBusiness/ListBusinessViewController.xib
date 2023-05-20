@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ListBusinessViewController" customModule="BusinessEnamDua" customModuleProvider="target">
+            <connections>
+                <outlet property="containerHeaderView" destination="DPJ-ax-A4h" id="V66-9o-Jk9"/>
+                <outlet property="listBusinessTableView" destination="lnF-OT-OMk" id="ESk-h1-wRz"/>
+                <outlet property="searchBusinessTextField" destination="cQC-1P-b9n" id="9dp-qc-9KS"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dlu-pM-9A9">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="818"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DPJ-ax-A4h">
+                            <rect key="frame" x="0.0" y="0.0" width="393" height="163.66666666666666"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="4k1-j2-ltd">
+                                    <rect key="frame" x="16" y="51" width="361" height="38.666666666666657"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hi," textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l26-AN-rGX">
+                                            <rect key="frame" x="0.0" y="0.0" width="361" height="19.333333333333332"/>
+                                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                            <color key="textColor" name="BEDWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Where do you want to satisfy your hunger?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7VQ-pY-Xrd">
+                                            <rect key="frame" x="0.0" y="19.333333333333329" width="361" height="19.333333333333329"/>
+                                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                            <color key="textColor" name="BEDWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </stackView>
+                                <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Search..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cQC-1P-b9n">
+                                    <rect key="frame" x="16" y="105.66666666666667" width="361" height="42.000000000000014"/>
+                                    <color key="backgroundColor" name="BEDGray"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="42" id="mIv-XL-ESd"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <textInputTraits key="textInputTraits"/>
+                                </textField>
+                            </subviews>
+                            <color key="backgroundColor" name="BEDBlue"/>
+                            <constraints>
+                                <constraint firstItem="cQC-1P-b9n" firstAttribute="leading" secondItem="DPJ-ax-A4h" secondAttribute="leading" constant="16" id="7aH-hs-0P9"/>
+                                <constraint firstAttribute="trailing" secondItem="4k1-j2-ltd" secondAttribute="trailing" constant="16" id="CTb-Go-s5c"/>
+                                <constraint firstAttribute="trailing" secondItem="cQC-1P-b9n" secondAttribute="trailing" constant="16" id="S7A-ng-tcy"/>
+                                <constraint firstItem="cQC-1P-b9n" firstAttribute="top" secondItem="4k1-j2-ltd" secondAttribute="bottom" constant="16" id="iEl-F2-PRG"/>
+                                <constraint firstItem="4k1-j2-ltd" firstAttribute="leading" secondItem="DPJ-ax-A4h" secondAttribute="leading" constant="16" id="pIv-3Y-3NN"/>
+                                <constraint firstAttribute="bottom" secondItem="cQC-1P-b9n" secondAttribute="bottom" constant="16" id="qLW-w3-5aq"/>
+                            </constraints>
+                        </view>
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="lnF-OT-OMk">
+                            <rect key="frame" x="0.0" y="171.66666666666669" width="393" height="638.33333333333326"/>
+                            <color key="backgroundColor" name="BEDGray"/>
+                        </tableView>
+                    </subviews>
+                    <color key="backgroundColor" name="BEDGray"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="lnF-OT-OMk" secondAttribute="trailing" id="Bwk-f1-rAt"/>
+                        <constraint firstItem="DPJ-ax-A4h" firstAttribute="leading" secondItem="Dlu-pM-9A9" secondAttribute="leading" id="FBB-5M-4RC"/>
+                        <constraint firstItem="lnF-OT-OMk" firstAttribute="top" secondItem="DPJ-ax-A4h" secondAttribute="bottom" constant="8" id="W9B-am-P3D"/>
+                        <constraint firstItem="DPJ-ax-A4h" firstAttribute="top" secondItem="Dlu-pM-9A9" secondAttribute="top" id="Z0R-IT-pxZ"/>
+                        <constraint firstAttribute="trailing" secondItem="DPJ-ax-A4h" secondAttribute="trailing" id="dj7-K3-AEI"/>
+                        <constraint firstAttribute="bottom" secondItem="lnF-OT-OMk" secondAttribute="bottom" constant="8" id="gCB-Py-1Jq"/>
+                        <constraint firstItem="lnF-OT-OMk" firstAttribute="leading" secondItem="Dlu-pM-9A9" secondAttribute="leading" id="gLs-iD-EUb"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" name="BEDGray"/>
+            <constraints>
+                <constraint firstItem="Dlu-pM-9A9" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="Fcj-yd-RNt"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="Dlu-pM-9A9" secondAttribute="bottom" id="RMC-h7-FJN"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="top" secondItem="4k1-j2-ltd" secondAttribute="top" constant="8" id="UFw-jJ-cJM"/>
+                <constraint firstItem="Dlu-pM-9A9" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="pnt-Bu-ZVd"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Dlu-pM-9A9" secondAttribute="trailing" id="s4a-Ry-7Os"/>
+            </constraints>
+            <point key="canvasLocation" x="113" y="21"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="BEDBlue">
+            <color red="0.46274509803921571" green="0.60784313725490191" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="BEDGray">
+            <color red="0.98039215686274506" green="0.9882352941176471" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="BEDWhite">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
