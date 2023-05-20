@@ -9,14 +9,43 @@
 /* Begin PBXBuildFile section */
 		E1A249E32A18A450001C2745 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A249E22A18A450001C2745 /* AppDelegate.swift */; };
 		E1A249E52A18A450001C2745 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A249E42A18A450001C2745 /* SceneDelegate.swift */; };
-		E1A249E72A18A450001C2745 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A249E62A18A450001C2745 /* ViewController.swift */; };
-		E1A249EA2A18A450001C2745 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1A249E82A18A450001C2745 /* Main.storyboard */; };
 		E1A249ED2A18A450001C2745 /* BusinessEnamDua.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E1A249EB2A18A450001C2745 /* BusinessEnamDua.xcdatamodeld */; };
 		E1A249EF2A18A454001C2745 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1A249EE2A18A454001C2745 /* Assets.xcassets */; };
 		E1A249F22A18A454001C2745 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1A249F02A18A454001C2745 /* LaunchScreen.storyboard */; };
 		E1A249FD2A18A455001C2745 /* BusinessEnamDuaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A249FC2A18A455001C2745 /* BusinessEnamDuaTests.swift */; };
 		E1A24A072A18A455001C2745 /* BusinessEnamDuaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A24A062A18A455001C2745 /* BusinessEnamDuaUITests.swift */; };
 		E1A24A092A18A455001C2745 /* BusinessEnamDuaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A24A082A18A455001C2745 /* BusinessEnamDuaUITestsLaunchTests.swift */; };
+		E1AF28762A18C5DD00D03370 /* ListBusinessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AF28742A18C5DD00D03370 /* ListBusinessViewController.swift */; };
+		E1AF28772A18C5DD00D03370 /* ListBusinessViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1AF28752A18C5DD00D03370 /* ListBusinessViewController.xib */; };
+		E1AF287B2A18E03000D03370 /* AppColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AF287A2A18E03000D03370 /* AppColor+Ext.swift */; };
+		E1AF28832A18E8C800D03370 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AF28822A18E8C800D03370 /* UIView+Ext.swift */; };
+		E1AF288D2A18ED6000D03370 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AF288C2A18ED6000D03370 /* BaseViewModel.swift */; };
+		E1AF28902A18ED7E00D03370 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = E1AF288F2A18ED7E00D03370 /* Alamofire */; };
+		E1AF28932A18ED8F00D03370 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = E1AF28922A18ED8F00D03370 /* Kingfisher */; };
+		E1AF28962A18EDA600D03370 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = E1AF28952A18EDA600D03370 /* RxCocoa */; };
+		E1AF28982A18EDA600D03370 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E1AF28972A18EDA600D03370 /* RxSwift */; };
+		E1AF289B2A18EDBE00D03370 /* netfox in Frameworks */ = {isa = PBXBuildFile; productRef = E1AF289A2A18EDBE00D03370 /* netfox */; };
+		E1AF289F2A18EE1900D03370 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AF289E2A18EE1900D03370 /* Constants.swift */; };
+		E1AF28A12A18EE4D00D03370 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AF28A02A18EE4D00D03370 /* APIManager.swift */; };
+		E1AF28A42A18EEA600D03370 /* RemoteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AF28A32A18EEA600D03370 /* RemoteDataSource.swift */; };
+		E1AF28A62A18EF1300D03370 /* Business.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AF28A52A18EF1300D03370 /* Business.swift */; };
+		E1AF28A82A18F05500D03370 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AF28A72A18F05500D03370 /* Repository.swift */; };
+		E1AF28AA2A18F0A700D03370 /* ListBusinessUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AF28A92A18F0A700D03370 /* ListBusinessUseCase.swift */; };
+		E1AF28AC2A18F10500D03370 /* Injection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AF28AB2A18F10500D03370 /* Injection.swift */; };
+		E1AF28AF2A18F17700D03370 /* ListBusinessViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AF28AE2A18F17700D03370 /* ListBusinessViewModel.swift */; };
+		E1AF28B12A18F45800D03370 /* Collection+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AF28B02A18F45800D03370 /* Collection+Ext.swift */; };
+		E1AF28B32A18F5E900D03370 /* UIImageView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AF28B22A18F5E900D03370 /* UIImageView+Ext.swift */; };
+		E1AF28B52A18F78B00D03370 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AF28B42A18F78B00D03370 /* UIViewController.swift */; };
+		E1AF28B82A18F79E00D03370 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AF28B72A18F79E00D03370 /* Toast.swift */; };
+		E1AF28BA2A18F7B000D03370 /* TTGSnackbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AF28B92A18F7B000D03370 /* TTGSnackbar.swift */; };
+		E1AF28BD2A19190E00D03370 /* UITableView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AF28BC2A19190E00D03370 /* UITableView+Ext.swift */; };
+		E1AF28BF2A19198700D03370 /* UITextField+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AF28BE2A19198700D03370 /* UITextField+Ext.swift */; };
+		E1AF28C32A1923E800D03370 /* SearchBusinessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AF28C12A1923E800D03370 /* SearchBusinessViewController.swift */; };
+		E1AF28C42A1923E800D03370 /* SearchBusinessViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1AF28C22A1923E800D03370 /* SearchBusinessViewController.xib */; };
+		E1AF28C72A19257000D03370 /* BusinessTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AF28C52A19257000D03370 /* BusinessTableViewCell.swift */; };
+		E1AF28C82A19257000D03370 /* BusinessTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1AF28C62A19257000D03370 /* BusinessTableViewCell.xib */; };
+		E1AF28CB2A1926C200D03370 /* SearchBusinessViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AF28CA2A1926C200D03370 /* SearchBusinessViewModel.swift */; };
+		E1AF28CD2A19270C00D03370 /* SearchBusinessUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AF28CC2A19270C00D03370 /* SearchBusinessUseCase.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +69,6 @@
 		E1A249DF2A18A450001C2745 /* BusinessEnamDua.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BusinessEnamDua.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1A249E22A18A450001C2745 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E1A249E42A18A450001C2745 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E1A249E62A18A450001C2745 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E1A249E92A18A450001C2745 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E1A249EC2A18A450001C2745 /* BusinessEnamDua.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BusinessEnamDua.xcdatamodel; sourceTree = "<group>"; };
 		E1A249EE2A18A454001C2745 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E1A249F12A18A454001C2745 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +78,32 @@
 		E1A24A022A18A455001C2745 /* BusinessEnamDuaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BusinessEnamDuaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1A24A062A18A455001C2745 /* BusinessEnamDuaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessEnamDuaUITests.swift; sourceTree = "<group>"; };
 		E1A24A082A18A455001C2745 /* BusinessEnamDuaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessEnamDuaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E1AF28742A18C5DD00D03370 /* ListBusinessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListBusinessViewController.swift; sourceTree = "<group>"; };
+		E1AF28752A18C5DD00D03370 /* ListBusinessViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListBusinessViewController.xib; sourceTree = "<group>"; };
+		E1AF287A2A18E03000D03370 /* AppColor+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppColor+Ext.swift"; sourceTree = "<group>"; };
+		E1AF28822A18E8C800D03370 /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
+		E1AF288C2A18ED6000D03370 /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		E1AF289E2A18EE1900D03370 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E1AF28A02A18EE4D00D03370 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		E1AF28A32A18EEA600D03370 /* RemoteDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteDataSource.swift; sourceTree = "<group>"; };
+		E1AF28A52A18EF1300D03370 /* Business.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Business.swift; sourceTree = "<group>"; };
+		E1AF28A72A18F05500D03370 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		E1AF28A92A18F0A700D03370 /* ListBusinessUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListBusinessUseCase.swift; sourceTree = "<group>"; };
+		E1AF28AB2A18F10500D03370 /* Injection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Injection.swift; sourceTree = "<group>"; };
+		E1AF28AE2A18F17700D03370 /* ListBusinessViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListBusinessViewModel.swift; sourceTree = "<group>"; };
+		E1AF28B02A18F45800D03370 /* Collection+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+Ext.swift"; sourceTree = "<group>"; };
+		E1AF28B22A18F5E900D03370 /* UIImageView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Ext.swift"; sourceTree = "<group>"; };
+		E1AF28B42A18F78B00D03370 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		E1AF28B72A18F79E00D03370 /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		E1AF28B92A18F7B000D03370 /* TTGSnackbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTGSnackbar.swift; sourceTree = "<group>"; };
+		E1AF28BC2A19190E00D03370 /* UITableView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Ext.swift"; sourceTree = "<group>"; };
+		E1AF28BE2A19198700D03370 /* UITextField+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Ext.swift"; sourceTree = "<group>"; };
+		E1AF28C12A1923E800D03370 /* SearchBusinessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBusinessViewController.swift; sourceTree = "<group>"; };
+		E1AF28C22A1923E800D03370 /* SearchBusinessViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchBusinessViewController.xib; sourceTree = "<group>"; };
+		E1AF28C52A19257000D03370 /* BusinessTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessTableViewCell.swift; sourceTree = "<group>"; };
+		E1AF28C62A19257000D03370 /* BusinessTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BusinessTableViewCell.xib; sourceTree = "<group>"; };
+		E1AF28CA2A1926C200D03370 /* SearchBusinessViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBusinessViewModel.swift; sourceTree = "<group>"; };
+		E1AF28CC2A19270C00D03370 /* SearchBusinessUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBusinessUseCase.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +111,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1AF289B2A18EDBE00D03370 /* netfox in Frameworks */,
+				E1AF28962A18EDA600D03370 /* RxCocoa in Frameworks */,
+				E1AF28932A18ED8F00D03370 /* Kingfisher in Frameworks */,
+				E1AF28982A18EDA600D03370 /* RxSwift in Frameworks */,
+				E1AF28902A18ED7E00D03370 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,12 +177,13 @@
 			isa = PBXGroup;
 			children = (
 				E16B60F92A18A57400D8E2B9 /* Application */,
-				E1A249E62A18A450001C2745 /* ViewController.swift */,
-				E1A249E82A18A450001C2745 /* Main.storyboard */,
-				E16B60FA2A18A68400D8E2B9 /* Supporting Files */,
-				E1A249F02A18A454001C2745 /* LaunchScreen.storyboard */,
+				E1AF28842A18ED3200D03370 /* Data */,
+				E1AF28852A18ED3400D03370 /* Domain */,
 				E1A249F32A18A454001C2745 /* Info.plist */,
-				E1A249EB2A18A450001C2745 /* BusinessEnamDua.xcdatamodeld */,
+				E1A249F02A18A454001C2745 /* LaunchScreen.storyboard */,
+				E1AF28732A18C5CD00D03370 /* Presentation */,
+				E16B60FA2A18A68400D8E2B9 /* Supporting Files */,
+				E1AF28782A18E01A00D03370 /* Utilities */,
 			);
 			path = BusinessEnamDua;
 			sourceTree = "<group>";
@@ -146,6 +205,181 @@
 			path = BusinessEnamDuaUITests;
 			sourceTree = "<group>";
 		};
+		E1AF28732A18C5CD00D03370 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				E1AF28C02A1923D800D03370 /* Search */,
+				E1AF287C2A18E49900D03370 /* ListBusiness */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		E1AF28782A18E01A00D03370 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				E1AF28B62A18F79700D03370 /* Library */,
+				E1AF28792A18E02000D03370 /* Extensions */,
+				E1AF289E2A18EE1900D03370 /* Constants.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		E1AF28792A18E02000D03370 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E1AF287A2A18E03000D03370 /* AppColor+Ext.swift */,
+				E1AF28822A18E8C800D03370 /* UIView+Ext.swift */,
+				E1AF28B02A18F45800D03370 /* Collection+Ext.swift */,
+				E1AF28B22A18F5E900D03370 /* UIImageView+Ext.swift */,
+				E1AF28B42A18F78B00D03370 /* UIViewController.swift */,
+				E1AF28BC2A19190E00D03370 /* UITableView+Ext.swift */,
+				E1AF28BE2A19198700D03370 /* UITextField+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E1AF287C2A18E49900D03370 /* ListBusiness */ = {
+			isa = PBXGroup;
+			children = (
+				E1AF28AD2A18F16D00D03370 /* ViewModel */,
+				E1AF287D2A18E4A000D03370 /* Cell */,
+				E1AF28742A18C5DD00D03370 /* ListBusinessViewController.swift */,
+				E1AF28752A18C5DD00D03370 /* ListBusinessViewController.xib */,
+			);
+			path = ListBusiness;
+			sourceTree = "<group>";
+		};
+		E1AF287D2A18E4A000D03370 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				E1AF28C52A19257000D03370 /* BusinessTableViewCell.swift */,
+				E1AF28C62A19257000D03370 /* BusinessTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		E1AF28842A18ED3200D03370 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				E1AF28BB2A19115E00D03370 /* PersistentStorage */,
+				E1AF288B2A18ED5300D03370 /* Repository */,
+				E1AF288A2A18ED4F00D03370 /* Network */,
+				E1AF28892A18ED4B00D03370 /* DI */,
+				E1AF28882A18ED3E00D03370 /* DataSource */,
+				E1AF288C2A18ED6000D03370 /* BaseViewModel.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		E1AF28852A18ED3400D03370 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				E1AF28872A18ED3900D03370 /* UseCase */,
+				E1AF28862A18ED3600D03370 /* Entities */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		E1AF28862A18ED3600D03370 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				E1AF28A52A18EF1300D03370 /* Business.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		E1AF28872A18ED3900D03370 /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				E1AF28A92A18F0A700D03370 /* ListBusinessUseCase.swift */,
+				E1AF28CC2A19270C00D03370 /* SearchBusinessUseCase.swift */,
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+		E1AF28882A18ED3E00D03370 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				E1AF28A22A18EE9F00D03370 /* Remote */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		E1AF28892A18ED4B00D03370 /* DI */ = {
+			isa = PBXGroup;
+			children = (
+				E1AF28AB2A18F10500D03370 /* Injection.swift */,
+			);
+			path = DI;
+			sourceTree = "<group>";
+		};
+		E1AF288A2A18ED4F00D03370 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				E1AF28A02A18EE4D00D03370 /* APIManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		E1AF288B2A18ED5300D03370 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				E1AF28A72A18F05500D03370 /* Repository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		E1AF28A22A18EE9F00D03370 /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				E1AF28A32A18EEA600D03370 /* RemoteDataSource.swift */,
+			);
+			path = Remote;
+			sourceTree = "<group>";
+		};
+		E1AF28AD2A18F16D00D03370 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E1AF28AE2A18F17700D03370 /* ListBusinessViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E1AF28B62A18F79700D03370 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				E1AF28B72A18F79E00D03370 /* Toast.swift */,
+				E1AF28B92A18F7B000D03370 /* TTGSnackbar.swift */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		E1AF28BB2A19115E00D03370 /* PersistentStorage */ = {
+			isa = PBXGroup;
+			children = (
+				E1A249EB2A18A450001C2745 /* BusinessEnamDua.xcdatamodeld */,
+			);
+			path = PersistentStorage;
+			sourceTree = "<group>";
+		};
+		E1AF28C02A1923D800D03370 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				E1AF28C92A1926B500D03370 /* ViewModel */,
+				E1AF28C12A1923E800D03370 /* SearchBusinessViewController.swift */,
+				E1AF28C22A1923E800D03370 /* SearchBusinessViewController.xib */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		E1AF28C92A1926B500D03370 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E1AF28CA2A1926C200D03370 /* SearchBusinessViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -162,6 +396,13 @@
 			dependencies = (
 			);
 			name = BusinessEnamDua;
+			packageProductDependencies = (
+				E1AF288F2A18ED7E00D03370 /* Alamofire */,
+				E1AF28922A18ED8F00D03370 /* Kingfisher */,
+				E1AF28952A18EDA600D03370 /* RxCocoa */,
+				E1AF28972A18EDA600D03370 /* RxSwift */,
+				E1AF289A2A18EDBE00D03370 /* netfox */,
+			);
 			productName = BusinessEnamDua;
 			productReference = E1A249DF2A18A450001C2745 /* BusinessEnamDua.app */;
 			productType = "com.apple.product-type.application";
@@ -234,6 +475,12 @@
 				Base,
 			);
 			mainGroup = E1A249D62A18A450001C2745;
+			packageReferences = (
+				E1AF288E2A18ED7E00D03370 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				E1AF28912A18ED8E00D03370 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				E1AF28942A18EDA600D03370 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				E1AF28992A18EDBE00D03370 /* XCRemoteSwiftPackageReference "netfox" */,
+			);
 			productRefGroup = E1A249E02A18A450001C2745 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -250,9 +497,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1AF28C82A19257000D03370 /* BusinessTableViewCell.xib in Resources */,
+				E1AF28C42A1923E800D03370 /* SearchBusinessViewController.xib in Resources */,
 				E1A249F22A18A454001C2745 /* LaunchScreen.storyboard in Resources */,
 				E1A249EF2A18A454001C2745 /* Assets.xcassets in Resources */,
-				E1A249EA2A18A450001C2745 /* Main.storyboard in Resources */,
+				E1AF28772A18C5DD00D03370 /* ListBusinessViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,10 +526,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1A249E72A18A450001C2745 /* ViewController.swift in Sources */,
+				E1AF28AC2A18F10500D03370 /* Injection.swift in Sources */,
+				E1AF28762A18C5DD00D03370 /* ListBusinessViewController.swift in Sources */,
 				E1A249E32A18A450001C2745 /* AppDelegate.swift in Sources */,
+				E1AF28B52A18F78B00D03370 /* UIViewController.swift in Sources */,
+				E1AF28A42A18EEA600D03370 /* RemoteDataSource.swift in Sources */,
+				E1AF28A82A18F05500D03370 /* Repository.swift in Sources */,
+				E1AF28C32A1923E800D03370 /* SearchBusinessViewController.swift in Sources */,
+				E1AF28A12A18EE4D00D03370 /* APIManager.swift in Sources */,
+				E1AF28AA2A18F0A700D03370 /* ListBusinessUseCase.swift in Sources */,
 				E1A249E52A18A450001C2745 /* SceneDelegate.swift in Sources */,
 				E1A249ED2A18A450001C2745 /* BusinessEnamDua.xcdatamodeld in Sources */,
+				E1AF28B12A18F45800D03370 /* Collection+Ext.swift in Sources */,
+				E1AF28BD2A19190E00D03370 /* UITableView+Ext.swift in Sources */,
+				E1AF28832A18E8C800D03370 /* UIView+Ext.swift in Sources */,
+				E1AF28AF2A18F17700D03370 /* ListBusinessViewModel.swift in Sources */,
+				E1AF28CD2A19270C00D03370 /* SearchBusinessUseCase.swift in Sources */,
+				E1AF28B32A18F5E900D03370 /* UIImageView+Ext.swift in Sources */,
+				E1AF288D2A18ED6000D03370 /* BaseViewModel.swift in Sources */,
+				E1AF28A62A18EF1300D03370 /* Business.swift in Sources */,
+				E1AF28B82A18F79E00D03370 /* Toast.swift in Sources */,
+				E1AF28C72A19257000D03370 /* BusinessTableViewCell.swift in Sources */,
+				E1AF287B2A18E03000D03370 /* AppColor+Ext.swift in Sources */,
+				E1AF28CB2A1926C200D03370 /* SearchBusinessViewModel.swift in Sources */,
+				E1AF28BF2A19198700D03370 /* UITextField+Ext.swift in Sources */,
+				E1AF28BA2A18F7B000D03370 /* TTGSnackbar.swift in Sources */,
+				E1AF289F2A18EE1900D03370 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,14 +588,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E1A249E82A18A450001C2745 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E1A249E92A18A450001C2745 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E1A249F02A18A454001C2745 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -464,7 +727,6 @@
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = NO;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
@@ -500,7 +762,6 @@
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = NO;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
@@ -638,6 +899,69 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E1AF288E2A18ED7E00D03370 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		E1AF28912A18ED8E00D03370 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+		E1AF28942A18EDA600D03370 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+		E1AF28992A18EDBE00D03370 /* XCRemoteSwiftPackageReference "netfox" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kasketis/netfox";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E1AF288F2A18ED7E00D03370 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E1AF288E2A18ED7E00D03370 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		E1AF28922A18ED8F00D03370 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E1AF28912A18ED8E00D03370 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		E1AF28952A18EDA600D03370 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E1AF28942A18EDA600D03370 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		E1AF28972A18EDA600D03370 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E1AF28942A18EDA600D03370 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		E1AF289A2A18EDBE00D03370 /* netfox */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E1AF28992A18EDBE00D03370 /* XCRemoteSwiftPackageReference "netfox" */;
+			productName = netfox;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		E1A249EB2A18A450001C2745 /* BusinessEnamDua.xcdatamodeld */ = {
