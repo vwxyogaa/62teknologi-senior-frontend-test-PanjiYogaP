@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="ReviewCollectionViewCell" customModule="BusinessEnamDua" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="358" height="118"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="358" height="118"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4eR-ch-vVF">
+                        <rect key="frame" x="8" y="8" width="342" height="102"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="oPe-te-nm0">
+                                <rect key="frame" x="8" y="8" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="fSo-Ji-1Sg"/>
+                                    <constraint firstAttribute="height" constant="50" id="wza-3d-tak"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="EDZ-jk-0QA">
+                                <rect key="frame" x="74" y="8" width="260" height="86"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4QZ-AX-Jte">
+                                        <rect key="frame" x="0.0" y="0.0" width="260" height="17"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                                        <color key="textColor" name="BEDBlack"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h8r-xx-vMI">
+                                        <rect key="frame" x="0.0" y="17" width="260" height="14.333333333333336"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <color key="textColor" name="BEDBlack"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iva-df-5sC">
+                                        <rect key="frame" x="0.0" y="31.333333333333339" width="260" height="54.666666666666657"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <color key="textColor" name="BEDBlack"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="EDZ-jk-0QA" secondAttribute="trailing" constant="8" id="BVQ-pN-H58"/>
+                            <constraint firstAttribute="bottom" secondItem="EDZ-jk-0QA" secondAttribute="bottom" constant="8" id="Hi8-lv-vYs"/>
+                            <constraint firstItem="EDZ-jk-0QA" firstAttribute="leading" secondItem="oPe-te-nm0" secondAttribute="trailing" constant="16" id="V68-Xb-NYt"/>
+                            <constraint firstItem="oPe-te-nm0" firstAttribute="leading" secondItem="4eR-ch-vVF" secondAttribute="leading" constant="8" id="b7g-68-eul"/>
+                            <constraint firstItem="EDZ-jk-0QA" firstAttribute="top" secondItem="4eR-ch-vVF" secondAttribute="top" constant="8" id="ib3-3Q-pxI"/>
+                            <constraint firstItem="oPe-te-nm0" firstAttribute="top" secondItem="4eR-ch-vVF" secondAttribute="top" constant="8" id="igY-fa-pcb"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="4eR-ch-vVF" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="LHB-yY-UWa"/>
+                <constraint firstAttribute="bottom" secondItem="4eR-ch-vVF" secondAttribute="bottom" constant="8" id="bcM-ev-d2u"/>
+                <constraint firstItem="4eR-ch-vVF" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="8" id="ny0-sv-eck"/>
+                <constraint firstAttribute="trailing" secondItem="4eR-ch-vVF" secondAttribute="trailing" constant="8" id="xqE-lR-ez9"/>
+            </constraints>
+            <size key="customSize" width="568" height="266"/>
+            <connections>
+                <outlet property="containerView" destination="4eR-ch-vVF" id="0U0-vU-oUq"/>
+                <outlet property="dateCreatedUserLabel" destination="h8r-xx-vMI" id="JZw-pw-irM"/>
+                <outlet property="descriptionReviewUserLabel" destination="Iva-df-5sC" id="7TR-mG-4yL"/>
+                <outlet property="nameUserLabel" destination="4QZ-AX-Jte" id="CMv-AZ-RbO"/>
+                <outlet property="photoUserImageView" destination="oPe-te-nm0" id="i3p-3q-H4o"/>
+            </connections>
+            <point key="canvasLocation" x="512.97709923664115" y="92.957746478873247"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <namedColor name="BEDBlack">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

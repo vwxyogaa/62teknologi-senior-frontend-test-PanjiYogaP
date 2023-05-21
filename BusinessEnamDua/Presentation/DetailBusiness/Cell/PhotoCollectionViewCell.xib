@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="PhotoCollectionViewCell" customModule="BusinessEnamDua" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="242" height="318"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="242" height="318"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5fw-lg-IaD">
+                        <rect key="frame" x="0.0" y="0.0" width="242" height="318"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9me-kB-pD0">
+                                <rect key="frame" x="0.0" y="0.0" width="242" height="318"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" name="BEDGray"/>
+                        <constraints>
+                            <constraint firstItem="9me-kB-pD0" firstAttribute="leading" secondItem="5fw-lg-IaD" secondAttribute="leading" id="JEC-Fm-znr"/>
+                            <constraint firstAttribute="bottom" secondItem="9me-kB-pD0" secondAttribute="bottom" id="Lcg-Zs-HwD"/>
+                            <constraint firstItem="9me-kB-pD0" firstAttribute="top" secondItem="5fw-lg-IaD" secondAttribute="top" id="Meo-mz-U5d"/>
+                            <constraint firstAttribute="trailing" secondItem="9me-kB-pD0" secondAttribute="trailing" id="dhO-hM-bLs"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="5fw-lg-IaD" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="OR9-w8-LiV"/>
+                <constraint firstAttribute="trailing" secondItem="5fw-lg-IaD" secondAttribute="trailing" id="h9Q-uk-BYH"/>
+                <constraint firstAttribute="bottom" secondItem="5fw-lg-IaD" secondAttribute="bottom" id="ihC-I2-A50"/>
+                <constraint firstItem="5fw-lg-IaD" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="zn3-Pq-yR3"/>
+            </constraints>
+            <size key="customSize" width="242" height="318"/>
+            <connections>
+                <outlet property="photoImageView" destination="9me-kB-pD0" id="Cq0-yd-1F6"/>
+            </connections>
+            <point key="canvasLocation" x="264.12213740458014" y="107.74647887323944"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <namedColor name="BEDGray">
+            <color red="0.98039215686274506" green="0.9882352941176471" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

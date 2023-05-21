@@ -98,6 +98,12 @@ extension ListBusinessViewController: UITableViewDataSource, UITableViewDelegate
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
+        let vc = DetailBusinessViewController()
+        let id = viewModel.listBusiness(at: indexPath.row)?.id
+        vc.id = id
+        let viewModel = DetailBusinessViewModel(detailBusinessUseCase: Injection().provideDetailBusinessUseCase())
+        vc.viewModel = viewModel
+        navigationController?.pushViewController(vc, animated: true)
     }
 }
 

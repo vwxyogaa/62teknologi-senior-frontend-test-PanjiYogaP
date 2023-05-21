@@ -15,6 +15,11 @@ final class Injection {
         let repository = provideRepository()
         return SearchBusinessUseCase(repository: repository)
     }
+    
+    func provideDetailBusinessUseCase() -> DetailBusinessUseCaseProtocol {
+        let repository = provideRepository()
+        return DetailBusinessUseCase(repository: repository)
+    }
 }
 
 extension Injection {
