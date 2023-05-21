@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E16AC2572A1A115B0072C736 /* CenteredCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16AC2562A1A115B0072C736 /* CenteredCollectionViewFlowLayout.swift */; };
+		E16AC2592A1A1B240072C736 /* Reviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16AC2582A1A1B240072C736 /* Reviews.swift */; };
+		E16AC25E2A1A38A20072C736 /* ReusableItemDetailImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16AC25C2A1A38A20072C736 /* ReusableItemDetailImageViewController.swift */; };
+		E16AC25F2A1A38A20072C736 /* ReusableItemDetailImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E16AC25D2A1A38A20072C736 /* ReusableItemDetailImageViewController.xib */; };
 		E1A249E32A18A450001C2745 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A249E22A18A450001C2745 /* AppDelegate.swift */; };
 		E1A249E52A18A450001C2745 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A249E42A18A450001C2745 /* SceneDelegate.swift */; };
 		E1A249ED2A18A450001C2745 /* BusinessEnamDua.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E1A249EB2A18A450001C2745 /* BusinessEnamDua.xcdatamodeld */; };
@@ -46,6 +50,14 @@
 		E1AF28C82A19257000D03370 /* BusinessTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1AF28C62A19257000D03370 /* BusinessTableViewCell.xib */; };
 		E1AF28CB2A1926C200D03370 /* SearchBusinessViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AF28CA2A1926C200D03370 /* SearchBusinessViewModel.swift */; };
 		E1AF28CD2A19270C00D03370 /* SearchBusinessUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AF28CC2A19270C00D03370 /* SearchBusinessUseCase.swift */; };
+		E1E91DF32A193B1600240B3E /* DetailBusinessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E91DF12A193B1600240B3E /* DetailBusinessViewController.swift */; };
+		E1E91DF42A193B1600240B3E /* DetailBusinessViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1E91DF22A193B1600240B3E /* DetailBusinessViewController.xib */; };
+		E1E91DF82A193FAD00240B3E /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E91DF62A193FAD00240B3E /* PhotoCollectionViewCell.swift */; };
+		E1E91DF92A193FAD00240B3E /* PhotoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1E91DF72A193FAD00240B3E /* PhotoCollectionViewCell.xib */; };
+		E1E91DFC2A193FE200240B3E /* ReviewCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E91DFA2A193FE200240B3E /* ReviewCollectionViewCell.swift */; };
+		E1E91DFD2A193FE200240B3E /* ReviewCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1E91DFB2A193FE200240B3E /* ReviewCollectionViewCell.xib */; };
+		E1E91DFF2A19428900240B3E /* DetailBusinessUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E91DFE2A19428900240B3E /* DetailBusinessUseCase.swift */; };
+		E1E91E022A19430700240B3E /* DetailBusinessViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E91E012A19430700240B3E /* DetailBusinessViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +78,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E16AC2562A1A115B0072C736 /* CenteredCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CenteredCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
+		E16AC2582A1A1B240072C736 /* Reviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reviews.swift; sourceTree = "<group>"; };
+		E16AC25C2A1A38A20072C736 /* ReusableItemDetailImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableItemDetailImageViewController.swift; sourceTree = "<group>"; };
+		E16AC25D2A1A38A20072C736 /* ReusableItemDetailImageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReusableItemDetailImageViewController.xib; sourceTree = "<group>"; };
 		E1A249DF2A18A450001C2745 /* BusinessEnamDua.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BusinessEnamDua.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1A249E22A18A450001C2745 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E1A249E42A18A450001C2745 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -104,6 +120,14 @@
 		E1AF28C62A19257000D03370 /* BusinessTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BusinessTableViewCell.xib; sourceTree = "<group>"; };
 		E1AF28CA2A1926C200D03370 /* SearchBusinessViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBusinessViewModel.swift; sourceTree = "<group>"; };
 		E1AF28CC2A19270C00D03370 /* SearchBusinessUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBusinessUseCase.swift; sourceTree = "<group>"; };
+		E1E91DF12A193B1600240B3E /* DetailBusinessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailBusinessViewController.swift; sourceTree = "<group>"; };
+		E1E91DF22A193B1600240B3E /* DetailBusinessViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailBusinessViewController.xib; sourceTree = "<group>"; };
+		E1E91DF62A193FAD00240B3E /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		E1E91DF72A193FAD00240B3E /* PhotoCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoCollectionViewCell.xib; sourceTree = "<group>"; };
+		E1E91DFA2A193FE200240B3E /* ReviewCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewCollectionViewCell.swift; sourceTree = "<group>"; };
+		E1E91DFB2A193FE200240B3E /* ReviewCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReviewCollectionViewCell.xib; sourceTree = "<group>"; };
+		E1E91DFE2A19428900240B3E /* DetailBusinessUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailBusinessUseCase.swift; sourceTree = "<group>"; };
+		E1E91E012A19430700240B3E /* DetailBusinessViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailBusinessViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +160,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E16AC25A2A1A388D0072C736 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				E16AC25B2A1A38910072C736 /* Reusable */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		E16AC25B2A1A38910072C736 /* Reusable */ = {
+			isa = PBXGroup;
+			children = (
+				E16AC25C2A1A38A20072C736 /* ReusableItemDetailImageViewController.swift */,
+				E16AC25D2A1A38A20072C736 /* ReusableItemDetailImageViewController.xib */,
+			);
+			path = Reusable;
+			sourceTree = "<group>";
+		};
 		E16B60F92A18A57400D8E2B9 /* Application */ = {
 			isa = PBXGroup;
 			children = (
@@ -208,6 +249,7 @@
 		E1AF28732A18C5CD00D03370 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				E1E91DF02A193AF800240B3E /* DetailBusiness */,
 				E1AF28C02A1923D800D03370 /* Search */,
 				E1AF287C2A18E49900D03370 /* ListBusiness */,
 			);
@@ -217,6 +259,7 @@
 		E1AF28782A18E01A00D03370 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				E16AC25A2A1A388D0072C736 /* CustomView */,
 				E1AF28B62A18F79700D03370 /* Library */,
 				E1AF28792A18E02000D03370 /* Extensions */,
 				E1AF289E2A18EE1900D03370 /* Constants.swift */,
@@ -284,6 +327,7 @@
 			isa = PBXGroup;
 			children = (
 				E1AF28A52A18EF1300D03370 /* Business.swift */,
+				E16AC2582A1A1B240072C736 /* Reviews.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -293,6 +337,7 @@
 			children = (
 				E1AF28A92A18F0A700D03370 /* ListBusinessUseCase.swift */,
 				E1AF28CC2A19270C00D03370 /* SearchBusinessUseCase.swift */,
+				E1E91DFE2A19428900240B3E /* DetailBusinessUseCase.swift */,
 			);
 			path = UseCase;
 			sourceTree = "<group>";
@@ -350,6 +395,7 @@
 			children = (
 				E1AF28B72A18F79E00D03370 /* Toast.swift */,
 				E1AF28B92A18F7B000D03370 /* TTGSnackbar.swift */,
+				E16AC2562A1A115B0072C736 /* CenteredCollectionViewFlowLayout.swift */,
 			);
 			path = Library;
 			sourceTree = "<group>";
@@ -376,6 +422,36 @@
 			isa = PBXGroup;
 			children = (
 				E1AF28CA2A1926C200D03370 /* SearchBusinessViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E1E91DF02A193AF800240B3E /* DetailBusiness */ = {
+			isa = PBXGroup;
+			children = (
+				E1E91E002A1942FC00240B3E /* ViewModel */,
+				E1E91DF52A193F9F00240B3E /* Cell */,
+				E1E91DF12A193B1600240B3E /* DetailBusinessViewController.swift */,
+				E1E91DF22A193B1600240B3E /* DetailBusinessViewController.xib */,
+			);
+			path = DetailBusiness;
+			sourceTree = "<group>";
+		};
+		E1E91DF52A193F9F00240B3E /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				E1E91DF62A193FAD00240B3E /* PhotoCollectionViewCell.swift */,
+				E1E91DF72A193FAD00240B3E /* PhotoCollectionViewCell.xib */,
+				E1E91DFA2A193FE200240B3E /* ReviewCollectionViewCell.swift */,
+				E1E91DFB2A193FE200240B3E /* ReviewCollectionViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		E1E91E002A1942FC00240B3E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E1E91E012A19430700240B3E /* DetailBusinessViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -501,6 +577,10 @@
 				E1AF28C42A1923E800D03370 /* SearchBusinessViewController.xib in Resources */,
 				E1A249F22A18A454001C2745 /* LaunchScreen.storyboard in Resources */,
 				E1A249EF2A18A454001C2745 /* Assets.xcassets in Resources */,
+				E1E91DF92A193FAD00240B3E /* PhotoCollectionViewCell.xib in Resources */,
+				E1E91DF42A193B1600240B3E /* DetailBusinessViewController.xib in Resources */,
+				E16AC25F2A1A38A20072C736 /* ReusableItemDetailImageViewController.xib in Resources */,
+				E1E91DFD2A193FE200240B3E /* ReviewCollectionViewCell.xib in Resources */,
 				E1AF28772A18C5DD00D03370 /* ListBusinessViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -530,27 +610,35 @@
 				E1AF28762A18C5DD00D03370 /* ListBusinessViewController.swift in Sources */,
 				E1A249E32A18A450001C2745 /* AppDelegate.swift in Sources */,
 				E1AF28B52A18F78B00D03370 /* UIViewController.swift in Sources */,
+				E1E91DFF2A19428900240B3E /* DetailBusinessUseCase.swift in Sources */,
 				E1AF28A42A18EEA600D03370 /* RemoteDataSource.swift in Sources */,
 				E1AF28A82A18F05500D03370 /* Repository.swift in Sources */,
+				E16AC25E2A1A38A20072C736 /* ReusableItemDetailImageViewController.swift in Sources */,
 				E1AF28C32A1923E800D03370 /* SearchBusinessViewController.swift in Sources */,
+				E16AC2572A1A115B0072C736 /* CenteredCollectionViewFlowLayout.swift in Sources */,
 				E1AF28A12A18EE4D00D03370 /* APIManager.swift in Sources */,
 				E1AF28AA2A18F0A700D03370 /* ListBusinessUseCase.swift in Sources */,
 				E1A249E52A18A450001C2745 /* SceneDelegate.swift in Sources */,
 				E1A249ED2A18A450001C2745 /* BusinessEnamDua.xcdatamodeld in Sources */,
 				E1AF28B12A18F45800D03370 /* Collection+Ext.swift in Sources */,
 				E1AF28BD2A19190E00D03370 /* UITableView+Ext.swift in Sources */,
+				E16AC2592A1A1B240072C736 /* Reviews.swift in Sources */,
 				E1AF28832A18E8C800D03370 /* UIView+Ext.swift in Sources */,
 				E1AF28AF2A18F17700D03370 /* ListBusinessViewModel.swift in Sources */,
 				E1AF28CD2A19270C00D03370 /* SearchBusinessUseCase.swift in Sources */,
+				E1E91DF32A193B1600240B3E /* DetailBusinessViewController.swift in Sources */,
 				E1AF28B32A18F5E900D03370 /* UIImageView+Ext.swift in Sources */,
 				E1AF288D2A18ED6000D03370 /* BaseViewModel.swift in Sources */,
 				E1AF28A62A18EF1300D03370 /* Business.swift in Sources */,
 				E1AF28B82A18F79E00D03370 /* Toast.swift in Sources */,
 				E1AF28C72A19257000D03370 /* BusinessTableViewCell.swift in Sources */,
 				E1AF287B2A18E03000D03370 /* AppColor+Ext.swift in Sources */,
+				E1E91E022A19430700240B3E /* DetailBusinessViewModel.swift in Sources */,
 				E1AF28CB2A1926C200D03370 /* SearchBusinessViewModel.swift in Sources */,
 				E1AF28BF2A19198700D03370 /* UITextField+Ext.swift in Sources */,
+				E1E91DF82A193FAD00240B3E /* PhotoCollectionViewCell.swift in Sources */,
 				E1AF28BA2A18F7B000D03370 /* TTGSnackbar.swift in Sources */,
+				E1E91DFC2A193FE200240B3E /* ReviewCollectionViewCell.swift in Sources */,
 				E1AF289F2A18EE1900D03370 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

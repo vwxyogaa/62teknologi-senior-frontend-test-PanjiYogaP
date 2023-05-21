@@ -10,6 +10,8 @@ import RxSwift
 
 protocol RepositoryProtocol {
     func getSearchBusiness(location: String, limit: Int) -> Observable<Business>
+    func getBusinessById(id: String) -> Observable<Business.BusinessElement>
+    func getReviewsById(id: String) -> Observable<Reviews>
 }
 
 final class Repository: NSObject {
@@ -28,5 +30,13 @@ final class Repository: NSObject {
 extension Repository: RepositoryProtocol {
     func getSearchBusiness(location: String, limit: Int) -> Observable<Business> {
         return remote.getSearchBusiness(location: location, limit: limit)
+    }
+    
+    func getBusinessById(id: String) -> Observable<Business.BusinessElement> {
+        return remote.getBusinessById(id: id)
+    }
+    
+    func getReviewsById(id: String) -> Observable<Reviews> {
+        return remote.getReviewsById(id: id)
     }
 }

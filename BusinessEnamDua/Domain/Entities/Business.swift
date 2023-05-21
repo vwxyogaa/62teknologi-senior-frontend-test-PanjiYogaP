@@ -24,6 +24,7 @@ struct Business: Codable {
         let location: Location?
         let phone, displayPhone: String?
         let distance: Double?
+        let photos: [String]?
         
         enum CodingKeys: String, CodingKey {
             case id, alias, name
@@ -34,6 +35,7 @@ struct Business: Codable {
             case categories, rating, coordinates, transactions, price, location, phone
             case displayPhone = "display_phone"
             case distance
+            case photos
         }
         
         struct Category: Codable {
