@@ -14,6 +14,7 @@
                 <outlet property="containerHeaderView" destination="DPJ-ax-A4h" id="V66-9o-Jk9"/>
                 <outlet property="listBusinessTableView" destination="lnF-OT-OMk" id="ESk-h1-wRz"/>
                 <outlet property="searchBusinessTextField" destination="cQC-1P-b9n" id="9dp-qc-9KS"/>
+                <outlet property="sortListBusinessCollectionView" destination="LCf-pc-3s9" id="lJ6-rO-DKG"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -65,20 +66,36 @@
                                 <constraint firstAttribute="bottom" secondItem="cQC-1P-b9n" secondAttribute="bottom" constant="16" id="qLW-w3-5aq"/>
                             </constraints>
                         </view>
-                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="lnF-OT-OMk">
-                            <rect key="frame" x="0.0" y="171.66666666666669" width="393" height="638.33333333333326"/>
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="lnF-OT-OMk">
+                            <rect key="frame" x="0.0" y="231.66666666666669" width="393" height="578.33333333333326"/>
                             <color key="backgroundColor" name="BEDGray"/>
                         </tableView>
+                        <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="LCf-pc-3s9">
+                            <rect key="frame" x="16" y="171.66666666666666" width="361" height="52"/>
+                            <color key="backgroundColor" name="BEDGray"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="52" id="SQf-GJ-kYv"/>
+                            </constraints>
+                            <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="V82-8G-ZMQ">
+                                <size key="itemSize" width="128" height="128"/>
+                                <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            </collectionViewFlowLayout>
+                        </collectionView>
                     </subviews>
                     <color key="backgroundColor" name="BEDGray"/>
                     <constraints>
                         <constraint firstAttribute="trailing" secondItem="lnF-OT-OMk" secondAttribute="trailing" id="Bwk-f1-rAt"/>
+                        <constraint firstItem="LCf-pc-3s9" firstAttribute="leading" secondItem="Dlu-pM-9A9" secondAttribute="leading" constant="16" id="CQk-cr-sdF"/>
                         <constraint firstItem="DPJ-ax-A4h" firstAttribute="leading" secondItem="Dlu-pM-9A9" secondAttribute="leading" id="FBB-5M-4RC"/>
-                        <constraint firstItem="lnF-OT-OMk" firstAttribute="top" secondItem="DPJ-ax-A4h" secondAttribute="bottom" constant="8" id="W9B-am-P3D"/>
                         <constraint firstItem="DPJ-ax-A4h" firstAttribute="top" secondItem="Dlu-pM-9A9" secondAttribute="top" id="Z0R-IT-pxZ"/>
                         <constraint firstAttribute="trailing" secondItem="DPJ-ax-A4h" secondAttribute="trailing" id="dj7-K3-AEI"/>
                         <constraint firstAttribute="bottom" secondItem="lnF-OT-OMk" secondAttribute="bottom" constant="8" id="gCB-Py-1Jq"/>
                         <constraint firstItem="lnF-OT-OMk" firstAttribute="leading" secondItem="Dlu-pM-9A9" secondAttribute="leading" id="gLs-iD-EUb"/>
+                        <constraint firstItem="LCf-pc-3s9" firstAttribute="top" secondItem="DPJ-ax-A4h" secondAttribute="bottom" constant="8" id="yFF-RR-bjK"/>
+                        <constraint firstItem="lnF-OT-OMk" firstAttribute="top" secondItem="LCf-pc-3s9" secondAttribute="bottom" constant="8" id="zUM-9P-2NT"/>
+                        <constraint firstAttribute="trailing" secondItem="LCf-pc-3s9" secondAttribute="trailing" constant="16" id="ztZ-Se-Z6m"/>
                     </constraints>
                 </view>
             </subviews>
@@ -91,7 +108,7 @@
                 <constraint firstItem="Dlu-pM-9A9" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="pnt-Bu-ZVd"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Dlu-pM-9A9" secondAttribute="trailing" id="s4a-Ry-7Os"/>
             </constraints>
-            <point key="canvasLocation" x="113" y="21"/>
+            <point key="canvasLocation" x="112.21374045801527" y="20.422535211267608"/>
         </view>
     </objects>
     <resources>

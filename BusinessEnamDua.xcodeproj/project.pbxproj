@@ -50,6 +50,8 @@
 		E1AF28C82A19257000D03370 /* BusinessTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1AF28C62A19257000D03370 /* BusinessTableViewCell.xib */; };
 		E1AF28CB2A1926C200D03370 /* SearchBusinessViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AF28CA2A1926C200D03370 /* SearchBusinessViewModel.swift */; };
 		E1AF28CD2A19270C00D03370 /* SearchBusinessUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AF28CC2A19270C00D03370 /* SearchBusinessUseCase.swift */; };
+		E1D2D7F02A1A675F009DE5A0 /* SortListBusinessCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D2D7EE2A1A675F009DE5A0 /* SortListBusinessCollectionViewCell.swift */; };
+		E1D2D7F12A1A675F009DE5A0 /* SortListBusinessCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1D2D7EF2A1A675F009DE5A0 /* SortListBusinessCollectionViewCell.xib */; };
 		E1E91DF32A193B1600240B3E /* DetailBusinessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E91DF12A193B1600240B3E /* DetailBusinessViewController.swift */; };
 		E1E91DF42A193B1600240B3E /* DetailBusinessViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1E91DF22A193B1600240B3E /* DetailBusinessViewController.xib */; };
 		E1E91DF82A193FAD00240B3E /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E91DF62A193FAD00240B3E /* PhotoCollectionViewCell.swift */; };
@@ -120,6 +122,8 @@
 		E1AF28C62A19257000D03370 /* BusinessTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BusinessTableViewCell.xib; sourceTree = "<group>"; };
 		E1AF28CA2A1926C200D03370 /* SearchBusinessViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBusinessViewModel.swift; sourceTree = "<group>"; };
 		E1AF28CC2A19270C00D03370 /* SearchBusinessUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBusinessUseCase.swift; sourceTree = "<group>"; };
+		E1D2D7EE2A1A675F009DE5A0 /* SortListBusinessCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortListBusinessCollectionViewCell.swift; sourceTree = "<group>"; };
+		E1D2D7EF2A1A675F009DE5A0 /* SortListBusinessCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SortListBusinessCollectionViewCell.xib; sourceTree = "<group>"; };
 		E1E91DF12A193B1600240B3E /* DetailBusinessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailBusinessViewController.swift; sourceTree = "<group>"; };
 		E1E91DF22A193B1600240B3E /* DetailBusinessViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailBusinessViewController.xib; sourceTree = "<group>"; };
 		E1E91DF62A193FAD00240B3E /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -297,6 +301,8 @@
 			children = (
 				E1AF28C52A19257000D03370 /* BusinessTableViewCell.swift */,
 				E1AF28C62A19257000D03370 /* BusinessTableViewCell.xib */,
+				E1D2D7EE2A1A675F009DE5A0 /* SortListBusinessCollectionViewCell.swift */,
+				E1D2D7EF2A1A675F009DE5A0 /* SortListBusinessCollectionViewCell.xib */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -573,6 +579,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1D2D7F12A1A675F009DE5A0 /* SortListBusinessCollectionViewCell.xib in Resources */,
 				E1AF28C82A19257000D03370 /* BusinessTableViewCell.xib in Resources */,
 				E1AF28C42A1923E800D03370 /* SearchBusinessViewController.xib in Resources */,
 				E1A249F22A18A454001C2745 /* LaunchScreen.storyboard in Resources */,
@@ -612,6 +619,7 @@
 				E1AF28B52A18F78B00D03370 /* UIViewController.swift in Sources */,
 				E1E91DFF2A19428900240B3E /* DetailBusinessUseCase.swift in Sources */,
 				E1AF28A42A18EEA600D03370 /* RemoteDataSource.swift in Sources */,
+				E1D2D7F02A1A675F009DE5A0 /* SortListBusinessCollectionViewCell.swift in Sources */,
 				E1AF28A82A18F05500D03370 /* Repository.swift in Sources */,
 				E16AC25E2A1A38A20072C736 /* ReusableItemDetailImageViewController.swift in Sources */,
 				E1AF28C32A1923E800D03370 /* SearchBusinessViewController.swift in Sources */,

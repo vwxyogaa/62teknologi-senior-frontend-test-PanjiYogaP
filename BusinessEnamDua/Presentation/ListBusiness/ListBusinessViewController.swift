@@ -11,6 +11,7 @@ import RxSwift
 class ListBusinessViewController: UIViewController {
     @IBOutlet weak var containerHeaderView: UIView!
     @IBOutlet weak var searchBusinessTextField: UITextField!
+    @IBOutlet weak var sortListBusinessCollectionView: UICollectionView!
     @IBOutlet weak var listBusinessTableView: UITableView!
     
     private lazy var refreshControl: UIRefreshControl = {
@@ -27,6 +28,7 @@ class ListBusinessViewController: UIViewController {
         super.viewDidLoad()
         configureViews()
         configureTableView()
+        configureCollectionView()
         initObserver()
     }
     
@@ -49,6 +51,12 @@ class ListBusinessViewController: UIViewController {
         searchBusinessTextField.layer.masksToBounds = true
         searchBusinessTextField.layer.cornerRadius = 8
         searchBusinessTextField.delegate = self
+    }
+    
+    private func configureCollectionView() {
+        sortListBusinessCollectionView.register(UINib(nibName: "SortListBusinessCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "SortListBusinessCollectionViewCell")
+        sortListBusinessCollectionView.dataSource = self
+        sortListBusinessCollectionView.delegate = self
     }
     
     private func configureTableView() {
@@ -104,6 +112,28 @@ extension ListBusinessViewController: UITableViewDataSource, UITableViewDelegate
         let viewModel = DetailBusinessViewModel(detailBusinessUseCase: Injection().provideDetailBusinessUseCase())
         vc.viewModel = viewModel
         navigationController?.pushViewController(vc, animated: true)
+    }
+}
+
+// MARK: - UICollectionViewDataSource, UICollectionViewDelegateFlowLayout
+extension ListBusinessViewController: UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return 4
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "SortListBusinessCollectionViewCell", for: indexPath) as? SortListBusinessCollectionViewCell else { return UICollectionViewCell() }
+        let sortBy = ["Best Match", "Rating", "Review Count", "Distance"]
+        cell.configureContent(name: sortBy[indexPath.row])
+        return cell
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        return CGSize(width: 150, height: 60)
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
+        return 8
     }
 }
 
